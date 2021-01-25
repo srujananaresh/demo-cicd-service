@@ -23,7 +23,7 @@ public class SampleControllerTest {
 
 	@Test
 	public void helloWorldTest() {
-		String response = "Hello WOrld";
+		String response = "Hello World";
 		String res = service.helloWorld();
 		Assert.assertEquals(response, res);
 
