@@ -1,0 +1,9 @@
+com\vodafone\iot\gdsp\demoCICD\config\ConnectionAspectConfig.class
+com\vodafone\iot\gdsp\demoCICD\exception\ObjectNotFoundException.class
+com\vodafone\iot\gdsp\demoCICD\dto\SampleEntityDto.class
+com\vodafone\iot\gdsp\demoCICD\DockerSampleAppApplication.class
+com\vodafone\iot\gdsp\demoCICD\repository\SampleEntityRepository.class
+com\vodafone\iot\gdsp\demoCICD\config\WebConfig.class
+com\vodafone\iot\gdsp\demoCICD\controller\SampleController.class
+com\vodafone\iot\gdsp\demoCICD\config\WebSecurityConfig.class
+com\vodafone\iot\gdsp\demoCICD\domain\SampleEntity.class

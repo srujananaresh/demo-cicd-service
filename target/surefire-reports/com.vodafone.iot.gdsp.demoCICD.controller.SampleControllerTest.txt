@@ -1,0 +1,4 @@
+-------------------------------------------------------------------------------
+Test set: com.vodafone.iot.gdsp.demoCICD.controller.SampleControllerTest
+-------------------------------------------------------------------------------
+Tests run: 4, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 56.205 s - in com.vodafone.iot.gdsp.demoCICD.controller.SampleControllerTest

@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?><!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd"><html xmlns="http://www.w3.org/1999/xhtml" lang="en"><head><meta http-equiv="Content-Type" content="text/html;charset=UTF-8"/><link rel="stylesheet" href="../jacoco-resources/report.css" type="text/css"/><link rel="shortcut icon" href="../jacoco-resources/report.gif" type="image/gif"/><title>ConnectionAspectConfig.java</title><link rel="stylesheet" href="../jacoco-resources/prettify.css" type="text/css"/><script type="text/javascript" src="../jacoco-resources/prettify.js"></script></head><body onload="window['PR_TAB_WIDTH']=4;prettyPrint()"><div class="breadcrumb" id="breadcrumb"><span class="info"><a href="../jacoco-sessions.html" class="el_session">Sessions</a></span><a href="../index.html" class="el_report">DockerSampleApp</a> &gt; <a href="index.source.html" class="el_package">com.vodafone.iot.gdsp.demoCICD.config</a> &gt; <span class="el_source">ConnectionAspectConfig.java</span></div><h1>ConnectionAspectConfig.java</h1><pre class="source lang-java linenums">package com.vodafone.iot.gdsp.demoCICD.config;
+
+import com.vodafone.m2m.util.UserAwareConnectionUtil;
+import org.aspectj.lang.annotation.AfterReturning;
+import org.aspectj.lang.annotation.Aspect;
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.beans.factory.annotation.Value;
+import org.springframework.context.annotation.Bean;
+import org.springframework.context.annotation.Configuration;
+
+import java.sql.Connection;
+import java.sql.SQLException;
+
+@Aspect
+@Configuration
+<span class="fc" id="L16">public class ConnectionAspectConfig {</span>
+//  TODO: If you are using an ORACLE Datasource, this aspect will save in the V$SESSION table the authenticated user and the client Identifier.
+
+//    @Value(&quot;${app.name}&quot;)
+//    private String module;
+//    @Autowired
+//    private UserAwareConnectionUtil userAwareConnectionUtil;
+//
+//    @Bean
+//    public UserAwareConnectionUtil getConnectionUtil(){
+//        UserAwareConnectionUtil userAwareConnectionUtil = new UserAwareConnectionUtil();
+//        userAwareConnectionUtil.setModule(module);
+//        return userAwareConnectionUtil;
+//    }
+//
+//    @AfterReturning(pointcut = &quot;execution(* org.apache.tomcat.jdbc.pool.DataSourceProxy.getConnection(..))&quot;, returning = &quot;connection&quot;)
+//    public Connection setClientIdentifier(Connection connection) throws SQLException {
+//        return userAwareConnectionUtil.setClientIdentifier(connection);
+//    }
+}
+</pre><div class="footer"><span class="right">Created with <a href="http://www.jacoco.org/jacoco">JaCoCo</a> 0.8.3.201901230119</span></div></body></html>

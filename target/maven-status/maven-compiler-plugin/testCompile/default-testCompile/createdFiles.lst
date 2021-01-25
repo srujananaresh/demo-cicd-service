@@ -1,0 +1,4 @@
+com\vodafone\iot\gdsp\demoCICD\controller\SampleControllerTest.class
+com\vodafone\iot\gdsp\demoCICD\dto\SampleEntityDtoTests.class
+com\vodafone\iot\gdsp\demoCICD\repository\SampleEntityRepositoryTests.class
+com\vodafone\iot\gdsp\demoCICD\DockerSampleAppApplicationTests.class

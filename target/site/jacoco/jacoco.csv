@@ -1,0 +1,7 @@
+GROUP,PACKAGE,CLASS,INSTRUCTION_MISSED,INSTRUCTION_COVERED,BRANCH_MISSED,BRANCH_COVERED,LINE_MISSED,LINE_COVERED,COMPLEXITY_MISSED,COMPLEXITY_COVERED,METHOD_MISSED,METHOD_COVERED
+DockerSampleApp,com.vodafone.iot.gdsp.demoCICD.config,ConnectionAspectConfig,0,3,0,0,0,1,0,1,0,1
+DockerSampleApp,com.vodafone.iot.gdsp.demoCICD.config,WebConfig,0,7,0,0,0,2,0,2,0,2
+DockerSampleApp,com.vodafone.iot.gdsp.demoCICD.config,WebSecurityConfig,0,23,0,0,0,4,0,2,0,2
+DockerSampleApp,com.vodafone.iot.gdsp.demoCICD.controller,SampleController,0,33,0,0,0,6,0,4,0,4
+DockerSampleApp,com.vodafone.iot.gdsp.demoCICD,DockerSampleAppApplication,5,3,0,0,2,1,1,1,1,1
+DockerSampleApp,com.vodafone.iot.gdsp.demoCICD.exception,ObjectNotFoundException,0,3,0,0,0,1,0,1,0,1
